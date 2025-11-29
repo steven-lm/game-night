@@ -1,0 +1,1357 @@
+{
+  "rounds": [
+    {
+      "roundNumber": 1,
+      "name": "Round 1",
+      "pointValues": [100, 200, 300, 400, 500],
+      "specialCardFrequency": 0.1,
+      "theme": {
+        "background": "theme1",
+        "cardStyle": "style1"
+      },
+      "categories": [
+        {
+          "id": "cat1",
+          "name": "Game Masters",
+          "questions": [
+            {
+              "id": "q1-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This video game known for its notorious difficulty, was recognized as the undisputed 2022 game of the year",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Elden Ring",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q1-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This indie game was developed single-handedly by one person following his rejection from major video game studios",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Stardew Valley",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q1-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "In tactical shooters like Valorant or CSGO, what is the term for a round where a team intentionally buys cheap or no weapons to save for the next round",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Eco round",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q1-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "What is this league of legends ability? name the ability and the champion",
+                "mediaUrl": "/images/thresh-q.webp"
+              },
+              "answer": {
+                "type": "text",
+                "content": "Death Sentence, Thresh",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q1-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This famous memed line of dialogue is what every town guard in Skyrim would tell the player referencing an career-ending injury",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "I used to be an adventurer like you, then I took an arrow in the knee",
+                "mediaUrl": "/images/adventurer.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat2",
+          "name": "Tales from the Table",
+          "questions": [
+            {
+              "id": "q2-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This tragic death marked the very first fatality of any D&D session played here",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Scout",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q2-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This cursed magical item was found in the submerged captains quarters during our Pirates one shot",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "A ‘Spirit spear’",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q2-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This pet stood by the side of one of the most important people in the Three Realms, who was responsible for leading the rebels",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Pebbles",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q2-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "A beloved spectacle in the country of Theress, this renowned traveling circus was considered the highlight of anyones day.. Describe 3 of the main acts in the Big Top Circus",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Willum puppet show, KT tight rope, Burli balanced on ball and do handstand, Darack stopped two beasts from fighting and flexed his muscle",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q2-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This rundown restaurant in the corner of Slumberg made a name for itself on the very first night it opened. What was the set menu for Wizmo's grand opening?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Vegetables, Chefs special meat stew, Slumberg style fish and chips, Dino nuggies and chips, Banana fritters",
+                "mediaUrl": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat3",
+          "name": "Blurred Bites",
+          "questions": [
+            {
+              "id": "q3-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/pixel-foods/1.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Kit Kat",
+                "mediaUrl": "/images/pixel-foods/answers/1.jpg"
+              }
+            },
+            {
+              "id": "q3-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/pixel-foods/2.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Cherries",
+                "mediaUrl": "/images/pixel-foods/answers/2.jpg"
+              }
+            },
+            {
+              "id": "q3-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/pixel-foods/3.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Krabby Patty",
+                "mediaUrl": "/images/pixel-foods/answers/3.webp"
+              }
+            },
+            {
+              "id": "q3-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/pixel-foods/4.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Garlic",
+                "mediaUrl": "/images/pixel-foods/answers/4.jpg"
+              }
+            },
+            {
+              "id": "q3-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/pixel-foods/5.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Tide pods",
+                "mediaUrl": "/images/pixel-foods/answers/5.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat4",
+          "name": "Guess the meow",
+          "questions": [
+            {
+              "id": "q4-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/gifs/cat-gifs/1.gif"
+              },
+              "answer": {
+                "type": "video",
+                "content": "Huh",
+                "mediaUrl": "/gifs/cat-gifs/answers/1.mp4"
+              }
+            },
+            {
+              "id": "q4-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/gifs/cat-gifs/2.gif"
+              },
+              "answer": {
+                "type": "video",
+                "content": "uuia",
+                "mediaUrl": "/gifs/cat-gifs/answers/2.mp4"
+              }
+            },
+            {
+              "id": "q4-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/gifs/cat-gifs/3.gif"
+              },
+              "answer": {
+                "type": "video",
+                "content": "awah awaaa",
+                "mediaUrl": "/gifs/cat-gifs/answers/3.mp4"
+              }
+            },
+            {
+              "id": "q4-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/gifs/cat-gifs/4.gif"
+              },
+              "answer": {
+                "type": "video",
+                "content": "wiwiwiwiwi",
+                "mediaUrl": "/gifs/cat-gifs/answers/4.mp4"
+              }
+            },
+            {
+              "id": "q4-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/gifs/cat-gifs/5.gif"
+              },
+              "answer": {
+                "type": "video",
+                "content": "oh long john",
+                "mediaUrl": "/gifs/cat-gifs/answers/5.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat5",
+          "name": "Great Books",
+          "questions": [
+            {
+              "id": "q5-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "In this 21st-century novel, two lovers, one sharing a name with a type of bread, undermines a dystopian regime",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "The Hunger Games, Suzanne Collins",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q5-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This book is one of the most translated works in the world",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "The Bible (other answers also acceptable, Pilgrim’s Progress, Le pEtit Prince)",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q5-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "These famous last words are spoken by a Roman leader as he is betrayed by a close friend in a Shakespearean tragedy.",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "\"Et tu, Brute?\"",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q5-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "In this English novel, citizens are genetically engineered into an intelligence-based social hierarchy and use the drug 'soma' to suppress negative emotions",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Brave New World, Aldous Huxley",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q5-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This stream-of-consciousness masterpiece reimagines Homer's ancient Greek epic in a single day following a man through Dublin",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Ulysses, James Joyce",
+                "mediaUrl": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roundNumber": 2,
+      "name": "Round 2",
+      "pointValues": [100, 200, 300, 400, 500],
+      "specialCardFrequency": 0.15,
+      "theme": {
+        "background": "theme2",
+        "cardStyle": "style2"
+      },
+      "categories": [
+        {
+          "id": "cat6",
+          "name": "Blast from the Past",
+          "questions": [
+            {
+              "id": "q6-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This secret US military project, developed during World War II, led to the atomic bombings of Japan",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "The Manhattan Project",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q6-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "In the 19th century, Britain went to war with China twice to protect the trading of this substance",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Opium",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q6-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "The fate of this aviation pioneer is one of the greatest mysteries after they vanished in an attempt to fly around the world",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Amelia Earhart",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q6-4",
+              "points": 400,
+              "type": "special",
+              "specialType": "doublePoint",
+              "question": {
+                "type": "text",
+                "content": "DOUBLE POINTS! After the NASDAQ peaked in March 2000, this economic crisis wiped out over $5 trillion in market value and bankrupted countless internet startups",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "The Dot-Com Bubble",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q6-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "Name the 7 ancient wonders of the world",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Great Pyramid of Giza, Hanging Gardens, Statue of Zeus, The Temple of Artemis, Mausoleum at Halicarnassus, Colossus of Rhodes, Lighthouse of Alexandria",
+                "mediaUrl": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat7",
+          "name": "Name that Pair",
+          "questions": [
+            {
+              "id": "q7-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/combined-people/question/1.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Josh swift",
+                "mediaUrl": "/images/combined-people/answer/1.png"
+              }
+            },
+            {
+              "id": "q7-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/combined-people/question/2.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "The rock viv",
+                "mediaUrl": "/images/combined-people/answer/2.png"
+              }
+            },
+            {
+              "id": "q7-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/combined-people/question/3.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Raybama",
+                "mediaUrl": "/images/combined-people/answer/3.png"
+              }
+            },
+            {
+              "id": "q7-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/combined-people/question/4.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Brennan Sophia",
+                "mediaUrl": "/images/combined-people/answer/4.png"
+              }
+            },
+            {
+              "id": "q7-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "",
+                "mediaUrl": "/images/combined-people/question/5.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Shang Den",
+                "mediaUrl": "/images/combined-people/answer/5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat8",
+          "name": "Unknown Quantities",
+          "questions": [
+            {
+              "id": "q8-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "2014 − 4102",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "-2088",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q8-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "What is the longest side of a right-angled triangle called?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Hypotenuse",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q8-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "What is the name of this formula?",
+                "mediaUrl": "/images/round2/quadratic.png"
+              },
+              "answer": {
+                "type": "text",
+                "content": "Quadratic Formula",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q8-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "Which unit of time is the longest?\nA)300,000 years\nB)100 years\nC)1000 years\nD)10000 years",
+                "mediaUrl": "/images/round2/time.png"
+              },
+              "answer": {
+                "type": "text",
+                "content": "3 Months",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q8-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "Which one is the missing tile?",
+                "mediaUrl": "/images/round2/tiles.png"
+              },
+              "answer": {
+                "type": "text",
+                "content": "E",
+                "mediaUrl": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat9",
+          "name": "Perfect Harmony",
+          "questions": [
+            {
+              "id": "q9-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "Sung by a former Disney-star-turned-pop-icon, this was the most streamed song in 2024.",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Espresso, Sabrina Carpenter",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q9-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "According to Fraulein Maria, what does ‘ti’ in the musical scale stand for?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "A drink with jam and bread",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q9-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "Fans of this iconic early 2000s boy group are known as VIPs",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Big Bang",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q9-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "Glinda is the master of social success. She sang \"Celebrated heads of state Or specially great communicators!\" What are the next 2 lines?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Did they have brains or knowledge? Don’t make me laugh! They were popular",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q9-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "What is the name and meaning of this symbol?",
+                "mediaUrl": "/images/round2/symbol.png"
+              },
+              "answer": {
+                "type": "text",
+                "content": "Fermata - hold/pause/extend a note",
+                "mediaUrl": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat10",
+          "name": "Potpourri",
+          "questions": [
+            {
+              "id": "q10-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "Of the four Kings in a standard deck of playing cards, the King of Hearts is the only one notably missing this facial feature",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "King of hearts",
+                "mediaUrl": "/images/round2/kings.webp"
+              }
+            },
+            {
+              "id": "q10-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This Australian marsupial is the only animal in the world known to produce cube-shaped poop, which stops the droppings from rolling away",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "Wombat",
+                "mediaUrl": "/images/round2/wombat.jpg"
+              }
+            },
+            {
+              "id": "q10-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "image",
+                "content": "Who’s hand is this?",
+                "mediaUrl": "/images/round2/hand.png"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Krys",
+                "mediaUrl": "/images/round2/handanswer.jpg"
+              }
+            },
+            {
+              "id": "q10-4",
+              "points": 400,
+              "type": "special",
+              "specialType": "duel",
+              "question": {
+                "type": "text",
+                "content": "Scientists call a group of these animals a 'business' perhaps because they look like they are wearing little bandit masks while they work.",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "Ferrets",
+                "mediaUrl": "/images/round2/ferrets.jpg"
+              }
+            },
+            {
+              "id": "q10-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This substance makes up 90% of Saturn’s rings",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "Ice",
+                "mediaUrl": "/images/round2/ice.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roundNumber": 3,
+      "name": "Round 3",
+      "pointValues": [100, 200, 300, 400, 500],
+      "specialCardFrequency": 0.2,
+      "theme": {
+        "background": "theme3",
+        "cardStyle": "style3"
+      },
+      "categories": [
+        {
+          "id": "cat11",
+          "name": "There’s no place like HOME",
+          "questions": [
+            {
+              "id": "q11-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "In this Christmas classic, Kevin McCallister defends his house from burglars",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "Home Alone",
+                "mediaUrl": "/images/round3/homealone.jpg"
+              }
+            },
+            {
+              "id": "q11-2",
+              "points": 200,
+              "type": "special",
+              "specialType": "wager",
+              "question": {
+                "type": "text",
+                "content": "American high schools and colleges celebrate this annual tradition when alumni return to campus, often featuring a football game and dance?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "Homecoming",
+                "mediaUrl": "/images/round3/prom.avif"
+              }
+            },
+            {
+              "id": "q11-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This bumbling father from Springfield works at a nuclear power plant and loves donuts",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "Homer Simpson",
+                "mediaUrl": "/images/round3/homer.webp"
+              }
+            },
+            {
+              "id": "q11-4",
+              "points": 400,
+              "type": "regular",
+              "question": {
+                "type": "text",
+                "content": "This John Denver classic became an unofficial anthem for West Virginia, celebrating its mountains",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Take Me Home, Country Roads",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q11-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "The body's ability to maintain a stable internal environment, such as temperature or hydration, even when external conditions change",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Homeostasis",
+                "mediaUrl": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat12",
+          "name": "Lights, camera, action!",
+          "questions": [
+            {
+              "id": "q12-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This visionary filmmaker directed several blockbusters including Interstellar, Inception and Oppenheimer",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Christopher Nolan",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q12-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "video",
+                "content": "Watch the following scene and complete the missing line",
+                "mediaUrl": "/images/round3/meangirls1.mp4"
+              },
+              "answer": {
+                "type": "video",
+                "content": "If you’re from Africa, why are you white?",
+                "mediaUrl": "/images/round3/meangirls2.mp4"
+              }
+            },
+            {
+              "id": "q12-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "House Lannister is one of its richest and most powerful families in Westeros. What is their house motto?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "Hear Me Roar",
+                "mediaUrl": "/images/round3/lion.png"
+              }
+            },
+            {
+              "id": "q12-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "This final installment of its trilogy made Oscar history by winning all 11 categories for which it was nominated",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "image",
+                "content": "Lord of the Rings: Return of the King",
+                "mediaUrl": "/images/round3/gandalf.gif"
+              }
+            },
+            {
+              "id": "q12-5",
+              "points": 500,
+              "type": "special",
+              "specialType": "doublePoint",
+              "question": {
+                "type": "text",
+                "content": "This Black Mirror holiday special weaves together three dark tales involving date coaching, extracting digital consciousness, and being permanently blocked from society",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "White Christmas",
+                "mediaUrl": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat13",
+          "name": "Brain Teasers",
+          "questions": [
+            {
+              "id": "q13-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "What's brown and sticky?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "A stick",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q13-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "What can you catch but not throw?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "A cold",
+                "mediaUrl": "/images/round3/cold.jpg"
+              }
+            },
+            {
+              "id": "q13-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "What has 1 head, 1 foot and 4 legs?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "A bed",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q13-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "What is it that no one wants to have, but no one wants to lose either?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "A lawsuit",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q13-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "It has keys, but no locks. It has space, but no room. You can enter, but can’t go inside. What is it?",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "A keyboard",
+                "mediaUrl": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat14",
+          "name": "Animal Acoustics",
+          "questions": [
+            {
+              "id": "q14-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "audio",
+                "mediaUrl": "/images/round3/animals/question/snake.mp3"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Snake",
+                "mediaUrl": "/images/round3/animals/answer/snake.jpg"
+              }
+            },
+            {
+              "id": "q14-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "audio",
+                "mediaUrl": "/images/round3/animals/question/pigeon.mp3"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Pigeon",
+                "mediaUrl": "/images/round3/animals/answer/pigeon.webp"
+              }
+            },
+            {
+              "id": "q14-3",
+              "points": 300,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "audio",
+                "mediaUrl": "/images/round3/animals/question/guineapig.mp3"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Guinea Pig",
+                "mediaUrl": "/images/round3/animals/answer/guineapig.jfif"
+              }
+            },
+            {
+              "id": "q14-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "audio",
+                "mediaUrl": "/images/round3/animals/question/whale.mp3"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Whale",
+                "mediaUrl": "/images/round3/animals/answer/whale.jpg"
+              }
+            },
+            {
+              "id": "q14-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "audio",
+                "mediaUrl": "/images/round3/animals/question/koala.mp3"
+              },
+              "answer": {
+                "type": "image",
+                "content": "Koala",
+                "mediaUrl": "/images/round3/animals/answer/koala.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cat15",
+          "name": "Around the Globe",
+          "questions": [
+            {
+              "id": "q15-1",
+              "points": 100,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "Uluru once carried a different label on European maps. This was the name they used for the landmark.",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Ayers Rock",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q15-2",
+              "points": 200,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "Tourists climb its long staircase for the view, and it sits in one of the most visited capitals on Earth. This is the city home to the Spanish Steps.",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Rome",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q15-3",
+              "points": 300,
+              "type": "special",
+              "specialType": "duel",
+              "question": {
+                "type": "text",
+                "content": "Australia has many sprawling metro regions, but only one covers more land than any other. This city takes the title for the largest area.",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Brisbane",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q15-4",
+              "points": 400,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "Formed from thousands of islands and sitting on the Ring of Fire, this nation hosts more than 100 active volcanoes. Name the country.",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Indonesia",
+                "mediaUrl": null
+              }
+            },
+            {
+              "id": "q15-5",
+              "points": 500,
+              "type": "regular",
+              "specialType": null,
+              "question": {
+                "type": "text",
+                "content": "Before modern bakeries, this nation created the first cheesecake.",
+                "mediaUrl": null
+              },
+              "answer": {
+                "type": "text",
+                "content": "Ancient Greece",
+                "mediaUrl": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "avatars": [
+    {
+      "id": "avatar7",
+      "name": "Avatar 7",
+      "imageUrl": "/avatars/7.png"
+    },
+    {
+      "id": "avatar8",
+      "name": "Avatar 8",
+      "imageUrl": "/avatars/8.png"
+    },
+    {
+      "id": "avatar9",
+      "name": "Avatar 9",
+      "imageUrl": "/avatars/9.png"
+    },
+    {
+      "id": "avatar10",
+      "name": "Avatar 10",
+      "imageUrl": "/avatars/10.png"
+    },
+    {
+      "id": "avatar11",
+      "name": "Avatar 11",
+      "imageUrl": "/avatars/11.png"
+    },
+    {
+      "id": "avatar12",
+      "name": "Avatar 12",
+      "imageUrl": "/avatars/12.png"
+    }
+  ]
+}
+
