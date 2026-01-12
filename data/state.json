@@ -1,6 +1,8 @@
 {
   "currentRound": 2,
-  "completedQuestions": [],
+  "completedQuestions": [
+    "cat-new-2-cat-new-2-1"
+  ],
   "teams": [],
   "buzzerLocked": false,
   "buzzerTeam": null

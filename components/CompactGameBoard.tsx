@@ -57,7 +57,7 @@ export default function CompactGameBoard({
           </tr>
         </thead>
         <tbody>
-          {[0, 1, 2, 3, 4].map((rowIndex) => {
+          {[0, 1, 2, 3, 4, 5].map((rowIndex) => {
             const points = categories[0]?.questions[rowIndex]?.points;
             if (!points) return null;
             

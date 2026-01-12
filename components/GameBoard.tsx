@@ -80,7 +80,7 @@ export default function GameBoard({
 
   return (
     <div className="w-full h-full flex items-center justify-center p-2 pb-8">
-      <div className="grid grid-cols-5 grid-rows-[auto_repeat(5,1fr)] gap-3 w-full h-full max-w-full">
+      <div className="grid grid-cols-6 grid-rows-[auto_repeat(6,1fr)] gap-3 w-full h-full max-w-full">
         {/* Category Headers */}
         {categories.map((category) => (
           <motion.div
@@ -103,7 +103,7 @@ export default function GameBoard({
         ))}
 
         {/* Question Cards */}
-        {[0, 1, 2, 3, 4].map((rowIndex) => (
+        {[0, 1, 2, 3, 4, 5].map((rowIndex) => (
           <>
             {categories.map((category, colIndex) => {
               const question = category.questions[rowIndex];

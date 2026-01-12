@@ -414,7 +414,7 @@ export default function ScreenPage() {
         <div className="flex items-center justify-center gap-4 md:gap-8">
           {/* Host Face 1 - Left */}
           <motion.img
-            src="/images/faces/2.png"
+            src="/images/faces/5.png"
             alt="Host 1"
             className="w-20 h-20 md:w-24 md:h-24"
             animate={{
@@ -443,7 +443,7 @@ export default function ScreenPage() {
           
           {/* Host Face 3 - Right */}
           <motion.img
-            src="/images/faces/3.png"
+            src="/images/faces/10.png"
             alt="Host 3"
             className="w-20 h-20 md:w-24 md:h-24"
             animate={{
