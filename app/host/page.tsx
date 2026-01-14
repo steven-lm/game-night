@@ -646,7 +646,13 @@ export default function HostPage() {
                 <h2 className="text-lg font-bold text-gray-200">Current Question</h2>
                 {selectedQuestionData?.type === 'special' && (
                   <span className="text-xs px-2 py-1 bg-yellow-500/20 text-yellow-400 rounded">
-                    {selectedQuestionData.specialType === 'doublePoint' ? 'DOUBLE' : selectedQuestionData.specialType === 'duel' ? 'DUEL' : 'WAGER'}
+                    {selectedQuestionData.specialType === 'doublePoint' 
+                      ? 'DOUBLE' 
+                      : selectedQuestionData.specialType === 'duel' 
+                        ? 'DUEL' 
+                        : selectedQuestionData.specialType === 'textOnly'
+                          ? (selectedQuestionData.specialConfig?.title)
+                          : 'WAGER'}
                   </span>
                 )}
               </div>
@@ -751,6 +757,7 @@ export default function HostPage() {
                               categoryId: selectedCategory,
                               questionId: selectedQuestion,
                               specialType: selectedQuestionData.specialType,
+                              specialConfig: selectedQuestionData.specialConfig,
                             });
                           }
                         }

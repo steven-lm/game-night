@@ -19,6 +19,11 @@ type Question = {
     content: string;
     mediaUrl: string | null;
   };
+  specialConfig?: {
+    label?: string;
+    title?: string;
+    image?: string;
+  };
 };
 
 type Category = {
@@ -67,6 +72,9 @@ export default function GameBoard({
       }
       if (question.specialType === 'challenge') {
         return 'WAGER';
+      }
+      if (question.specialType === 'textOnly') {
+        return question.specialConfig?.label || 'EVENT';
       }
     }
     // Always show points value for unrevealed cards (even special ones)

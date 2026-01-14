@@ -79,6 +79,9 @@ export default function ScreenPage() {
     }
   };
 
+
+
+
   // Load state from JSON file on mount
   useEffect(() => {
     const loadState = async () => {
@@ -260,7 +263,7 @@ export default function ScreenPage() {
       setRevealedSpecialCard(null); // Clear special card modal when screen is cleared
     });
 
-    socket.on('special:revealed', (data: { categoryId: string; questionId: string; specialType: string }) => {
+    socket.on('special:revealed', (data: { categoryId: string; questionId: string; specialType: string; specialConfig?: any }) => {
       console.log('Screen: Received special:revealed event', data);
       // Update store first
       store.getState().revealSpecialCard(data.categoryId, data.questionId);
@@ -270,6 +273,7 @@ export default function ScreenPage() {
           categoryId: data.categoryId,
           questionId: data.questionId,
           specialType: data.specialType,
+          specialConfig: data.specialConfig,
         });
       }, 100);
     });
@@ -349,7 +353,7 @@ export default function ScreenPage() {
   const buzzerTeamData = buzzerTeam ? teams.find((t) => t.id === buzzerTeam) : null;
   
   // Track special card reveal for popup
-  const [revealedSpecialCard, setRevealedSpecialCard] = useState<{ categoryId: string; questionId: string; specialType: string } | null>(null);
+  const [revealedSpecialCard, setRevealedSpecialCard] = useState<{ categoryId: string; questionId: string; specialType: string; specialConfig?: { title?: string; image?: string } } | null>(null);
   const [lastProcessedReveal, setLastProcessedReveal] = useState<string>('');
 
   // Listen for special card reveals
@@ -363,21 +367,24 @@ export default function ScreenPage() {
         const [categoryId, questionId] = lastRevealed.split('-');
         
         // Find the question to get specialType
-        const category = currentRoundData.categories.find(c => c.id === categoryId);
+        const roundData = questionsData.rounds.find(r => r.roundNumber === currentRound);
+        const category = roundData?.categories.find(c => c.id === categoryId);
         const question = category?.questions.find(q => q.id === questionId);
         
         if (question && question.type === 'special') {
-          console.log('Screen: Setting revealed special card modal', { categoryId, questionId, specialType: question.specialType });
+          console.log('Screen: Setting revealed special card modal', { categoryId, questionId, specialType: question.specialType, config: (question as any).specialConfig });
           setRevealedSpecialCard({
             categoryId,
             questionId,
             specialType: question.specialType || '',
+            // @ts-ignore
+            specialConfig: question.specialConfig,
           });
           setLastProcessedReveal(lastRevealed);
         }
       }
     }
-  }, [revealedSpecialCards, currentRoundData, lastProcessedReveal]);
+  }, [revealedSpecialCards, currentRound, lastProcessedReveal]);
 
   return (
     <div className="h-screen w-full overflow-hidden flex flex-col relative">
@@ -698,6 +705,16 @@ export default function ScreenPage() {
                       alt="Wager Challenge" 
                       className="h-[40vh] w-auto object-contain mb-6"
                     />
+                  ) : revealedSpecialCard.specialType === 'textOnly' ? (
+                    revealedSpecialCard.specialConfig?.image ? (
+                        <img 
+                        src={revealedSpecialCard.specialConfig.image} 
+                        alt={revealedSpecialCard.specialConfig.title || "Special Event"} 
+                        className="h-[40vh] w-auto object-contain mb-6"
+                        />
+                    ) : (
+                        <Sparkles size={120} className="fill-yellow-200 mb-6" />
+                    )
                   ) : (
                     <Sparkles size={120} className="fill-yellow-200" />
                   )}
@@ -711,7 +728,13 @@ export default function ScreenPage() {
                     textShadow: '0 0 20px rgba(0,0,0,0.5)',
                   }}
                 >
-                  {revealedSpecialCard.specialType === 'doublePoint' ? 'DOUBLE POINTS!' : revealedSpecialCard.specialType === 'duel' ? 'DUEL!' : 'WAGER!'}
+                  {revealedSpecialCard.specialType === 'doublePoint' 
+                    ? 'DOUBLE POINTS!' 
+                    : revealedSpecialCard.specialType === 'duel' 
+                    ? 'DUEL!' 
+                    : revealedSpecialCard.specialType === 'textOnly'
+                    ? (revealedSpecialCard.specialConfig?.title)
+                    : 'WAGER!'}
                 </motion.div>
               </div>
             </div>

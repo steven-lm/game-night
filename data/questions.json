@@ -704,7 +704,12 @@
               "id": "q6-4",
               "points": 400,
               "type": "special",
-              "specialType": "doublePoint",
+              "specialType": "textOnly",
+              "specialConfig": {
+                "label": "TEST",
+                "title": "SAfasfasf",
+                "image": ""
+              },
               "question": {
                 "type": "text",
                 "content": "DOUBLE POINTS! After the NASDAQ peaked in March 2000, this economic crisis wiped out over $5 trillion in market value and bankrupted countless internet startups",

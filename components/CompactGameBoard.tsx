@@ -7,6 +7,11 @@ type Question = {
   points: number;
   type: 'regular' | 'special';
   specialType: string | null;
+  specialConfig?: {
+    label?: string;
+    title?: string;
+    image?: string;
+  };
 };
 
 type Category = {
@@ -95,6 +100,8 @@ export default function CompactGameBoard({
                             ? question.specialType === 'doublePoint'
                               ? 'Double Points'
                               : 'Wager Card'
+                            : question.specialType === 'textOnly'
+                            ? question.specialConfig?.title || question.specialConfig?.label || 'Text Event'
                             : `${question.points} points`
                         }
                       >
